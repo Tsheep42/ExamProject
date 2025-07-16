@@ -1,2 +1,9 @@
-public class Goblin {
+public class Goblin extends Monster{
+    public Goblin(char suffix,int hp) {
+        super('A',50);
+    }
+    public void attack(Creature target) {
+        System.out.println("ゴブリン" + suffix + "はナイフで切りつけた" + target.getName() + "に8のダメージを与えた！");
+        target.setHp(target.getHp() - 8);
+    }
 }

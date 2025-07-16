@@ -1,5 +1,6 @@
 abstract class Character implements Creature{
     private String name;
+    public String getName() {return name;}
     private int hp;
     public Character(String name, int hp) {
         this.name = name;
