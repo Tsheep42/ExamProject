@@ -4,7 +4,7 @@ import java.util.List;
 public class GameMaster {
     public static void main(String[] args) {
         List<Character> party = new ArrayList<Character>();
-
+        
         Hero hero=new Hero("勇者",100,"剣");
         Wizard wizard=new Wizard("魔法使い",60,20);
         Thief thief = new Thief("盗賊",70);
